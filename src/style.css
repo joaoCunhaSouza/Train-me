@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+a {
+  color: black;
+  text-decoration: none; /* Remove sublinhado */
+  font-weight: bold; /* Torna o texto em negrito */
+  font-family: 'Inter';
+  font-weight: 500;
+}
+
+  
+.more-link-0 {
+    color: #ffffff;
+    background-color: #89C5CC;
+    padding: 10px 35px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-weight: 500;
+}
+
+
+
+.no-list-style-0 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.svg-logo {
+    width: 40px;
+    height: 40px;
+}
+
+.ul {
+    display: flex;
+    list-style-type: none; /* Remove as bolinhas da lista */
+    gap: 1rem;
+    padding: 0; 
+    margin: 0; 
+}
+
+.ul li {
+    margin: 0 15px; /* Adiciona margem entre os itens */
+}
+
+
